@@ -1,8 +1,8 @@
 # Challenge - Budget Currency Rates
 
 1. Create an application that finds a project's final budget in USD based on name using the data provided in ```/data```. 
-2. Convert the currecy to Trinidad and Tobago dollar (TTD) for the project ```Llapingacho Instagram``` for each of these dates:
-	- 02/02/2020
+2. Create a script to convert the currecy for the project ```Llapingacho Instagram```to Trinidad and Tobago dollar (TTD) for each of these dates:
+	- 02/02/2021
 	- 06/10/2023
 	- 05/04/2022
 	- 11/14/2021
