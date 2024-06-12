@@ -1,7 +1,7 @@
 # Challenge - Budget Currency Rates
 
 1. Create an application that finds a project's final budget in USD based on name using the data provided in ```/data```. 
-2. Create a script to convert the currency for the following projects to Trinidad and Tobago dollar (TTD):
+2.  Add capability to convert the currency for the following projects to Trinidad and Tobago dollar (TTD):
 	- ```Peking roasted duck Chanel```
 	- ```Choucroute Cartier```
 	- ```Rigua Nintendo```
