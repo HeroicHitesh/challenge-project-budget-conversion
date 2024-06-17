@@ -4,6 +4,7 @@ const http = require('http')
 const test = require('tape')
 const servertest = require('servertest')
 const app = require('../lib/app')
+require('../scripts/seed') // Uncomment when using in-memory DB, to seed project table
 
 const server = http.createServer(app)
 
