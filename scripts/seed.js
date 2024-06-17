@@ -51,9 +51,11 @@ db.executeQuery(createTableSql, [], err => {
   })
 
   stream.on('end', () => {
-    db.end(err => {
-      if (err) return console.error('Error closing database connection:', err)
-      console.log('Database connection closed')
-    })
+    if (process.env.NODE_ENV !== 'test') {
+      db.end(err => {
+        if (err) return console.error('Error closing database connection:', err)
+        console.log('Database connection closed')
+      })
+    }
   })
 })
